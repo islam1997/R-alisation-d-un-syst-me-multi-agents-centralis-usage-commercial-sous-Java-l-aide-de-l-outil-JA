@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane layoutX="308.0" layoutY="53.0" prefHeight="410.0" prefWidth="290.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;">
+            <effect>
+                <DropShadow color="#797979" />
+            </effect>
+            <children>
+                <Label layoutX="126.0" layoutY="64.0" text="USTHB" textFill="#9e9e9e">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <JFXTextField focusColor="#405aa800" labelFloat="true" layoutX="47.0" layoutY="126.0" maxWidth="213.0" minWidth="184.0" prefHeight="36.0" prefWidth="213.0" promptText="USERNAME" style="-fx-border-color: #0887ff; -fx-border-radius: 50px;" unFocusColor="#0a89ff00">
+                    <padding>
+                        <Insets left="10.0" top="10.0" />
+                    </padding>
+                </JFXTextField>
+                <JFXPasswordField focusColor="#405aa800" labelFloat="true" layoutX="47.0" layoutY="179.0" maxWidth="213.0" minWidth="192.0" prefHeight="36.0" prefWidth="213.0" promptText="PASSWORD" style="-fx-border-color: #0887ff; -fx-border-radius: 50PX;" unFocusColor="#4d4d4d00">
+                    <padding>
+                        <Insets left="10.0" top="10.0" />
+                    </padding>
+                </JFXPasswordField>
+                <JFXButton layoutX="47.0" layoutY="244.0" onAction="#started" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #0887ff; -fx-background-radius: 50PX;" text="GET STARTED" textFill="WHITE" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

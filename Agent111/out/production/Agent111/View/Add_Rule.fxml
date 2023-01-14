@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Add_Rule_Controller">
+   <children>
+      <TextArea fx:id="anttext" layoutX="8.0" layoutY="134.0" prefHeight="200.0" prefWidth="584.0" />
+      <Label layoutX="45.0" layoutY="10.0" text="Ajouter la consequence">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="416.0" layoutY="342.0" mnemonicParsing="false" onAction="#Annuler" prefHeight="34.0" prefWidth="148.0" text="ANNULER" />
+      <Button fx:id="ajouter_id" layoutX="233.0" layoutY="342.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="34.0" prefWidth="148.0" text="AJOUTER" />
+      <ComboBox fx:id="rulec_id" layoutX="253.0" layoutY="12.0" prefHeight="26.0" prefWidth="330.0" />
+      <ComboBox fx:id="rulec_id1" layoutX="253.0" layoutY="52.0" prefHeight="26.0" prefWidth="330.0" />
+      <TextField fx:id="resultat" layoutX="254.0" layoutY="85.0" prefHeight="30.0" prefWidth="330.0" />
+      <Label layoutX="129.0" layoutY="50.0" text="Comparaison">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="174.0" layoutY="85.0" text="Resultat">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="Show" layoutX="55.0" layoutY="342.0" mnemonicParsing="false" onAction="#Show" prefHeight="34.0" prefWidth="148.0" text="Show_Rule" />
+   </children>
+</AnchorPane>
+

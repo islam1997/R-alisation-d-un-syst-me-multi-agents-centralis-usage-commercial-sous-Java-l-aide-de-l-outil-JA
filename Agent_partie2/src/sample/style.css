@@ -1,0 +1,21 @@
+
+#homeBTNS :hover {
+    -fx-background-color: #ff895e;
+}
+
+.anchor {
+    -fx-background-image:url('C:\Users\islam\Downloads\Expert-system-master\Agent_partie2\src\View\nikhil-kumar-231465.jpg');
+    -fx-background-size: 100% 100%;
+}
+.anchor2 {
+    -fx-background-image:url('C:\Users\islam\Downloads\Expert-system-master\Agent_partie2\src\View\2.jpg');
+    -fx-background-size: 100% 100%;
+}
+.anchor3 {
+    -fx-background-image:url('C:\Users\islam\Downloads\Expert-system-master\Agent_partie2\src\View\3.jpg');
+    -fx-background-size: 100% 100%;
+}
+.anchor4 {
+    -fx-background-image:url('C:\Users\islam\Downloads\Expert-system-master\Agent_partie2\src\View\4.jpg');
+    -fx-background-size: 100% 100%;
+}

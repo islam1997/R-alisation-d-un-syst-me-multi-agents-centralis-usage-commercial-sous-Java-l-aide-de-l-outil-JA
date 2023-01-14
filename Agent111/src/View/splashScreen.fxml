@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PortableController">
+   <children>
+      <Pane prefHeight="562.0" prefWidth="643.0" style="-fx-background-color: #7d01aec7;">
+         <children>
+            <Label layoutX="51.0" layoutY="175.0" prefHeight="119.0" prefWidth="287.0" text="système expert des Portables" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Microsoft JhengHei UI Light" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="660.0" layoutY="66.0" prefHeight="26.0" prefWidth="270.0" text="Système" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="SystemeBox" layoutX="649.0" layoutY="92.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="659.0" layoutY="118.0" prefHeight="26.0" prefWidth="270.0" text="Capacité" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="CapaciteBox" layoutX="651.0" layoutY="138.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="164.0" prefHeight="26.0" prefWidth="270.0" text="Mémoire vive (RAM)" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="MemoireBox" layoutX="649.0" layoutY="190.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="225.0" prefHeight="26.0" prefWidth="270.0" text="DoubleCartesim" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+
+
+      <JFXButton buttonType="RAISED" layoutX="725.0" layoutY="506.0" onAction="#setButton" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="OK" textFill="#8000a4" />
+      <ComboBox fx:id="PortableCbox" layoutX="651.0" layoutY="40.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="660.0" layoutY="14.0" prefHeight="26.0" prefWidth="270.0" text="PORTABLE" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="DoubleSimBox" layoutX="649.0" layoutY="251.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="657.0" layoutY="277.0" prefHeight="26.0" prefWidth="270.0" text="WiFi" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="WifiBox" layoutX="650.0" layoutY="303.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" layoutX="659.0" layoutY="329.0" prefHeight="26.0" prefWidth="270.0" text="résolution_d'écran" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="resolutionbox" layoutX="648.0" layoutY="355.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="659.0" layoutY="381.0" prefHeight="26.0" prefWidth="270.0" text="Capteur_photo_principal" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="phtobox" layoutX="648.0" layoutY="407.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" layoutX="660.0" layoutY="433.0" prefHeight="26.0" prefWidth="270.0" text="Flash" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+      <ComboBox fx:id="flashbox" layoutX="648.0" layoutY="459.0" prefHeight="26.0" prefWidth="287.0" />
+
+   </children>
+</AnchorPane>

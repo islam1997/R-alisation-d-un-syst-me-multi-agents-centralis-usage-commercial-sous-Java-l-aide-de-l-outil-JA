@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.VechiculeController">
+    <children>
+        <Pane prefHeight="562.0" prefWidth="643.0" style="-fx-background-color: #7d01aec7;">
+            <children>
+                <Label layoutX="51.0" layoutY="175.0" prefHeight="119.0" prefWidth="287.0" text="système expert des voiture" textFill="WHITE" wrapText="true">
+                    <font>
+                        <Font name="Microsoft JhengHei UI Light" size="33.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="100.0" prefHeight="26.0" prefWidth="270.0" text="size value" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+        <font>
+            <Font name="Arial" size="13.0" />
+        </font></Label>
+        <ComboBox fx:id="sizeCBox" layoutX="650.0" layoutY="126.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="152.0" prefHeight="26.0" prefWidth="270.0" text="num_wheels value" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="numWheelsCBox" layoutX="650.0" layoutY="178.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="204.0" prefHeight="26.0" prefWidth="270.0" text="num_doors value" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="numDoorsCBox" layoutX="650.0" layoutY="230.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="256.0" prefHeight="26.0" prefWidth="270.0" text="motor value" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+
+
+        <JFXButton buttonType="RAISED" layoutX="675.0" layoutY="473.0" onAction="#setButton" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="OK" textFill="#8000a4" />
+      <ComboBox fx:id="vehiculeTypeCbox" layoutX="650.0" layoutY="74.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="47.0" prefHeight="26.0" prefWidth="270.0" text="vehicleType" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font></Label>
+      <ComboBox fx:id="motorCBox" layoutX="650.0" layoutY="282.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="308.0" prefHeight="26.0" prefWidth="270.0" text="vehicle value" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+          <font>
+              <Font name="Arial" size="13.0" />
+          </font></Label>
+      <ComboBox fx:id="vehiculeCBox" layoutX="649.0" layoutY="334.0" prefHeight="26.0" prefWidth="287.0" />
+
+    </children>
+</AnchorPane>

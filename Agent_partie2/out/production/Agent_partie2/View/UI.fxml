@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="drawerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="735.0" styleClass="anchor" stylesheets="@../sample/style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" >
+<children>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="66.0" prefHeight="26.0" prefWidth="270.0" text="Système" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="SystemeBox" layoutX="200.0" layoutY="92.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="118.0" prefHeight="26.0" prefWidth="270.0" text="Capacité" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="CapaciteBox" layoutX="200.0" layoutY="138.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="164.0" prefHeight="26.0" prefWidth="270.0" text="Mémoire vive (RAM)" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="MemoireBox" layoutX="200.0" layoutY="190.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="225.0" prefHeight="26.0" prefWidth="270.0" text="DoubleCartesim" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+
+
+   <JFXButton buttonType="RAISED" layoutX="274.0" layoutY="498.0" onAction="#setButton" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="OK" textFill="#8000a4" />
+   <ComboBox fx:id="PortableCbox" layoutX="200.0" layoutY="40.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="14.0" prefHeight="26.0" prefWidth="270.0" text="PORTABLE" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="DoubleSimBox" layoutX="200.0" layoutY="251.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="277.0" prefHeight="26.0" prefWidth="270.0" text="WiFi" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="WifiBox" layoutX="200.0" layoutY="303.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" layoutX="200.0" layoutY="329.0" prefHeight="26.0" prefWidth="270.0" text="résolution_d'écran" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="resolutionbox" layoutX="200.0" layoutY="355.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="381.0" prefHeight="26.0" prefWidth="270.0" text="Capteur_photo_principal" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="phtobox" layoutX="200.0" layoutY="407.0" prefHeight="26.0" prefWidth="287.0" />
+   <Label alignment="CENTER" layoutX="200.0" layoutY="433.0" prefHeight="26.0" prefWidth="270.0" text="Flash" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+      <font>
+         <Font name="Arial" size="13.0" />
+      </font></Label>
+   <ComboBox fx:id="flashbox" layoutX="200.0" layoutY="459.0" prefHeight="26.0" prefWidth="287.0" />
+
+</children>
+</AnchorPane>

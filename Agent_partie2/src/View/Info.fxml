@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TextController">
+   <children>
+      <JFXTextArea fx:id="info" prefHeight="278.0" prefWidth="606.0" promptText="Display">
+         <font>
+            <Font size="27.0" />
+         </font></JFXTextArea>
+      <Button layoutX="235.0" layoutY="302.0" mnemonicParsing="false" onAction="#action" prefHeight="42.0" prefWidth="113.0" text="OK" />
+   </children>
+
+</AnchorPane>

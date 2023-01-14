@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="z" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="946.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PortableController">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="660.0" layoutY="66.0" prefHeight="26.0" prefWidth="270.0" text="Système" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="sizeCBox" layoutX="649.0" layoutY="92.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="152.0" prefHeight="26.0" prefWidth="270.0" text="Capacité" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="numWheelsCBox" layoutX="650.0" layoutY="178.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="204.0" prefHeight="26.0" prefWidth="270.0" text="Mémoire vive (RAM)" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="numDoorsCBox" layoutX="650.0" layoutY="230.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="256.0" prefHeight="26.0" prefWidth="270.0" text="DoubleCartesim" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+
+
+        <JFXButton buttonType="RAISED" layoutX="725.0" layoutY="476.0" onAction="#setButton" prefHeight="41.0" prefWidth="140.0" ripplerFill="#bf78c2" style="-fx-border-color: #8000a4; -fx-border-radius: 10px; -fx-border-width: 0.5;" text="OK" textFill="#8000a4" />
+        <ComboBox fx:id="PortableCbox" layoutX="651.0" layoutY="40.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="660.0" layoutY="14.0" prefHeight="26.0" prefWidth="270.0" text="PORTABLE" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="motorCBox" layoutX="650.0" layoutY="282.0" prefHeight="26.0" prefWidth="287.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="308.0" prefHeight="26.0" prefWidth="270.0" text="WiFi" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+            <font>
+                <Font name="Arial" size="13.0" />
+            </font></Label>
+        <ComboBox fx:id="vehiculeCBox" layoutX="651.0" layoutY="334.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" layoutX="658.0" layoutY="360.0" prefHeight="26.0" prefWidth="270.0" text="résolution_d'écran" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+          <font>
+              <Font name="Arial" size="13.0" />
+          </font></Label>
+      <ComboBox layoutX="650.0" layoutY="385.0" prefHeight="26.0" prefWidth="287.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="658.0" layoutY="411.0" prefHeight="26.0" prefWidth="270.0" text="Capteur_photo_principal" textAlignment="CENTER" textFill="#9a40a8" wrapText="true">
+        <font>
+            <Font name="Arial" size="13.0" />
+        </font></Label>
+      <ComboBox layoutX="649.0" layoutY="437.0" prefHeight="26.0" prefWidth="287.0" />
+        <ImageView fx:id="image" fitHeight="533.0" fitWidth="635.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@e168ea343ea2356ecb9331de9b1c4.jpg" />
+            </image>
+        </ImageView>
+
+    </children>
+</AnchorPane>
