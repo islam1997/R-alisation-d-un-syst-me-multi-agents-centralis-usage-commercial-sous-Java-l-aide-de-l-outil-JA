@@ -27,7 +27,7 @@ SI( x1 [=,<,>, !=] v1 ET x1 [=,<,>, !=] v1 ET ... ET xn [=,<,>, !=] vn) ALORS ( 
 Nous allons travaillé avec javaFX , nous allons utilise le modele MVC (Modèle,Vue,Contrôleurs)
 pour l’implémentation de note premier partie.
 
-URL/image
+![image1](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/base.png)
 
 # présentation de l’interface graphique
 Le programme démarre par l’intefrace pricipale notre application dispose six interfaces, une interface principale pour la manipulation des différentes parties du SE, deux pour la saisie de données
@@ -36,7 +36,7 @@ appeler Protbales et trois interfaces pour l’admin pour gérer notre base de c
 
 # Interface principale
 
-URL Image
+![image2](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule2.png)
 
 Description de l’interface :
 
@@ -52,23 +52,25 @@ présenté dans la figure ci-dessous qui sert a gérer l’état du système afi
 instance ou changer la base des règles et meme remettre le système a son état initial et peut changer
 les bases via l’interface admin.
 
-URL Image
+![image3](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule3.png)
 
 # interface d’entrée
 chacune des bases de règles impose des bases de connaissances différentes donc pour chaque base
 de règles on a une interface d’entrée différente qui sera présenté dans ce qui suite
 
-URL image
+![image4](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule4.png)
 
-URL image
+![image5](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule5.png)
 
 # Interface Administration
 Depuis cette interface on peut changer notre base (regles,clauses,condition) meme ajouter de
 regles ou supprimer et aussi modfier
 
-URL image
+![image6](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/admin1.png)
 
-URL image
+![image7](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/admin2.png)
+
+![image8](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/admin3.png)
 
 # Partie2 : Système Multi-Agents (SMA)
 
@@ -81,7 +83,7 @@ agent centrale envoie la demande a l’agent vendeur qui est responsable de cett
 vendeur répond a l’agent centrale et l’agent centrale transmit la réponse a l’agent acheteur et qui dans
 notre cas l’utilisateur.
 
-URL Image
+![image9](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/iner.png)
 # Fonctionnement
 1. Utilisateur
 - introduit les critères de choix qu’il juge important dans sa recherche d’un véhicule ou d’un
@@ -106,13 +108,13 @@ central.
 L’utilisateur doit remplir le champs comme la premier partie pour voir ce qu’il veut prendre, aussi
 il doit choisir la base portable ou voiture.
 
-Image URL
+![image10](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule11.png)
 
 
 aprés une autre interface montre les resultats et les chmpas aussi si l utilisateur veut continuer de
 chercher ce qu’il veut
 
-Image Url
+![image11](https://github.com/islam1997/R-alisation-d-un-syst-me-multi-agents-centralis-usage-commercial-sous-Java-l-aide-de-l-outil-JA/blob/master/Capture/rule112.png)
 
 
 
